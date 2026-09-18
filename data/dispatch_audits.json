@@ -1,0 +1,137 @@
+[
+  {
+    "dispatchId": "DSP-015523",
+    "incidentId": "INC-DIAG-01",
+    "hotspotId": "HS-DIAG-01",
+    "location": "Industrial Estate Sector 4",
+    "coordinates": {
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "initiatedAt": "2026-09-18T08:43:35.523Z",
+    "initiatedBy": "Tactical Operator Console (AI Fire One / THERMOS)",
+    "mode": "TEST",
+    "selectedResponderIds": [
+      "resp-fire-1",
+      "resp-police-2",
+      "resp-hospital-3"
+    ],
+    "responders": [
+      {
+        "id": "resp-fire-1",
+        "name": "District Industrial Fire & Rescue Command",
+        "role": "FIRE_RESCUE",
+        "phoneNumber": "+917841070875",
+        "callId": "CALL-015523-1",
+        "status": "QUEUED"
+      },
+      {
+        "id": "resp-police-2",
+        "name": "State Police & Civil Evacuation Force",
+        "role": "POLICE",
+        "phoneNumber": "+917709695196",
+        "callId": "CALL-015524-2",
+        "status": "QUEUED"
+      },
+      {
+        "id": "resp-hospital-3",
+        "name": "Regional Apex Trauma & Burn ICU Hospital",
+        "role": "HOSPITAL_MEDICAL",
+        "phoneNumber": "+918180940073",
+        "callId": "CALL-015524-3",
+        "status": "QUEUED"
+      }
+    ],
+    "finalResults": "3 calls initiated (TEST MODE)"
+  },
+  {
+    "dispatchId": "DSP-925135",
+    "incidentId": "evt-firms-ulsan-01",
+    "hotspotId": "evt-firms-ulsan-01",
+    "location": "SK Energy Ulsan Complex",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "initiatedAt": "2026-09-18T08:25:25.135Z",
+    "initiatedBy": "Tactical Operator Console (AI Fire One / THERMOS)",
+    "mode": "LIVE",
+    "selectedResponderIds": [
+      "resp-fire-1",
+      "resp-police-2",
+      "resp-hospital-3"
+    ],
+    "responders": [
+      {
+        "id": "resp-fire-1",
+        "name": "District Industrial Fire & Rescue Command",
+        "role": "FIRE_RESCUE",
+        "phoneNumber": "+917841070875",
+        "callId": "CALL-925135-1",
+        "status": "FAILED"
+      },
+      {
+        "id": "resp-police-2",
+        "name": "State Police & Civil Evacuation Force",
+        "role": "POLICE",
+        "phoneNumber": "+917709695196",
+        "callId": "CALL-925494-2",
+        "status": "FAILED"
+      },
+      {
+        "id": "resp-hospital-3",
+        "name": "Regional Apex Trauma & Burn ICU Hospital",
+        "role": "HOSPITAL_MEDICAL",
+        "phoneNumber": "+918180940073",
+        "callId": "CALL-925820-3",
+        "status": "FAILED"
+      }
+    ],
+    "finalResults": "3 calls initiated (LIVE MODE)"
+  },
+  {
+    "dispatchId": "DSP-214565",
+    "incidentId": "INC-TEST-1",
+    "hotspotId": "evt-001",
+    "location": "SK Energy Complex, Ulsan",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "initiatedAt": "2026-09-18T07:56:54.565Z",
+    "initiatedBy": "Tactical Operator Console (AI Fire One / THERMOS)",
+    "mode": "TEST",
+    "selectedResponderIds": [
+      "resp-fire-1",
+      "resp-police-2",
+      "resp-hospital-3"
+    ],
+    "responders": [
+      {
+        "id": "resp-fire-1",
+        "name": "District Industrial Fire & Rescue Command",
+        "role": "FIRE_RESCUE",
+        "phoneNumber": "+919876543210",
+        "callId": "CALL-214565-1",
+        "status": "QUEUED"
+      },
+      {
+        "id": "resp-police-2",
+        "name": "State Police & Civil Evacuation Force",
+        "role": "POLICE",
+        "phoneNumber": "+919876543211",
+        "callId": "CALL-214566-2",
+        "status": "QUEUED"
+      },
+      {
+        "id": "resp-hospital-3",
+        "name": "Regional Apex Trauma & Burn ICU Hospital",
+        "role": "HOSPITAL_MEDICAL",
+        "phoneNumber": "+919876543212",
+        "callId": "CALL-214566-3",
+        "status": "QUEUED"
+      }
+    ],
+    "finalResults": "3 calls initiated (TEST MODE)"
+  }
+]

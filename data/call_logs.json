@@ -1,0 +1,544 @@
+[
+  {
+    "callId": "CALL-214565-1",
+    "dispatchId": "DSP-214565",
+    "incidentId": "INC-TEST-1",
+    "hotspotId": "evt-001",
+    "responderId": "resp-fire-1",
+    "responderName": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "phoneNumber": "+919876543210",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789718214566-hy4x8",
+    "status": "COMPLETED",
+    "queuedAt": "2026-09-18T07:56:54.565Z",
+    "duration": 4,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T07:56:54.565Z",
+        "note": "Emergency call session #1 queued for Fire & Rescue (Industrial Fire Services & Hazmat Division (TEST))"
+      },
+      {
+        "status": "INITIATING",
+        "timestamp": "2026-09-18T07:56:55.567Z",
+        "note": "Call status transitioned to INITIATING"
+      },
+      {
+        "status": "RINGING",
+        "timestamp": "2026-09-18T07:56:56.768Z",
+        "note": "Call status transitioned to RINGING"
+      },
+      {
+        "status": "ANSWERED",
+        "timestamp": "2026-09-18T07:56:59.270Z",
+        "note": "Call status transitioned to ANSWERED"
+      },
+      {
+        "status": "COMPLETED",
+        "timestamp": "2026-09-18T07:57:03.765Z",
+        "note": "Call status transitioned to COMPLETED"
+      }
+    ],
+    "location": "SK Energy Complex, Ulsan",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T07:56:54.565Z",
+    "updatedAt": "2026-09-18T07:57:03.765Z",
+    "initiatedAt": "2026-09-18T07:56:55.567Z",
+    "ringingAt": "2026-09-18T07:56:56.768Z",
+    "answeredAt": "2026-09-18T07:56:59.269Z",
+    "completedAt": "2026-09-18T07:57:03.765Z"
+  },
+  {
+    "callId": "CALL-214566-2",
+    "dispatchId": "DSP-214565",
+    "incidentId": "INC-TEST-1",
+    "hotspotId": "evt-001",
+    "responderId": "resp-police-2",
+    "responderName": "State Police & Civil Evacuation Force",
+    "role": "POLICE",
+    "phoneNumber": "+919876543211",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789718214566-k0prn",
+    "status": "COMPLETED",
+    "queuedAt": "2026-09-18T07:56:54.565Z",
+    "duration": 14,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T07:56:54.565Z",
+        "note": "Emergency call session #2 queued for Police (City & Industrial Area Police Command (TEST))"
+      },
+      {
+        "status": "INITIATING",
+        "timestamp": "2026-09-18T07:56:55.567Z",
+        "note": "Call status transitioned to INITIATING"
+      },
+      {
+        "status": "RINGING",
+        "timestamp": "2026-09-18T07:56:56.769Z",
+        "note": "Call status transitioned to RINGING"
+      },
+      {
+        "status": "ANSWERED",
+        "timestamp": "2026-09-18T07:56:59.270Z",
+        "note": "Call status transitioned to ANSWERED"
+      },
+      {
+        "status": "COMPLETED",
+        "timestamp": "2026-09-18T07:57:13.272Z",
+        "note": "Call status transitioned to COMPLETED"
+      }
+    ],
+    "location": "SK Energy Complex, Ulsan",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T07:56:54.565Z",
+    "updatedAt": "2026-09-18T07:57:13.272Z",
+    "initiatedAt": "2026-09-18T07:56:55.567Z",
+    "ringingAt": "2026-09-18T07:56:56.769Z",
+    "answeredAt": "2026-09-18T07:56:59.270Z",
+    "completedAt": "2026-09-18T07:57:13.272Z"
+  },
+  {
+    "callId": "CALL-214566-3",
+    "dispatchId": "DSP-214565",
+    "incidentId": "INC-TEST-1",
+    "hotspotId": "evt-001",
+    "responderId": "resp-hospital-3",
+    "responderName": "Regional Apex Trauma & Burn ICU Hospital",
+    "role": "HOSPITAL_MEDICAL",
+    "phoneNumber": "+919876543212",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789718214566-fbnho",
+    "status": "COMPLETED",
+    "queuedAt": "2026-09-18T07:56:54.565Z",
+    "duration": 14,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T07:56:54.565Z",
+        "note": "Emergency call session #3 queued for Hospital / Medical (Civil Medical Services & Trauma Center (TEST))"
+      },
+      {
+        "status": "INITIATING",
+        "timestamp": "2026-09-18T07:56:55.568Z",
+        "note": "Call status transitioned to INITIATING"
+      },
+      {
+        "status": "RINGING",
+        "timestamp": "2026-09-18T07:56:56.769Z",
+        "note": "Call status transitioned to RINGING"
+      },
+      {
+        "status": "ANSWERED",
+        "timestamp": "2026-09-18T07:56:59.270Z",
+        "note": "Call status transitioned to ANSWERED"
+      },
+      {
+        "status": "COMPLETED",
+        "timestamp": "2026-09-18T07:57:13.272Z",
+        "note": "Call status transitioned to COMPLETED"
+      }
+    ],
+    "location": "SK Energy Complex, Ulsan",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T07:56:54.565Z",
+    "updatedAt": "2026-09-18T07:57:13.272Z",
+    "initiatedAt": "2026-09-18T07:56:55.568Z",
+    "ringingAt": "2026-09-18T07:56:56.769Z",
+    "answeredAt": "2026-09-18T07:56:59.270Z",
+    "completedAt": "2026-09-18T07:57:13.272Z"
+  },
+  {
+    "callId": "TEST-CALL-809128",
+    "dispatchId": "TEST-9128",
+    "incidentId": "SYSTEM-TEST-LINE",
+    "hotspotId": "SYSTEM-TEST-LINE",
+    "responderId": "resp-fire-1",
+    "responderName": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "phoneNumber": "+917841070875",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789718809128-c6c6m",
+    "status": "COMPLETED",
+    "queuedAt": "2026-09-18T08:06:49.128Z",
+    "duration": 14,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:06:49.128Z",
+        "note": "Operator triggered direct diagnostic line test to Fire & Rescue"
+      },
+      {
+        "status": "INITIATING",
+        "timestamp": "2026-09-18T08:06:50.130Z",
+        "note": "Call status transitioned to INITIATING"
+      },
+      {
+        "status": "RINGING",
+        "timestamp": "2026-09-18T08:06:51.331Z",
+        "note": "Call status transitioned to RINGING"
+      },
+      {
+        "status": "ANSWERED",
+        "timestamp": "2026-09-18T08:06:53.833Z",
+        "note": "Call status transitioned to ANSWERED"
+      },
+      {
+        "status": "COMPLETED",
+        "timestamp": "2026-09-18T08:07:07.835Z",
+        "note": "Call status transitioned to COMPLETED"
+      }
+    ],
+    "location": "Diagnostic Terminal",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "severity": "LOW",
+    "classification": "Line Test",
+    "createdAt": "2026-09-18T08:06:49.128Z",
+    "updatedAt": "2026-09-18T08:07:07.835Z",
+    "initiatedAt": "2026-09-18T08:06:50.129Z",
+    "ringingAt": "2026-09-18T08:06:51.331Z",
+    "answeredAt": "2026-09-18T08:06:53.833Z",
+    "completedAt": "2026-09-18T08:07:07.834Z"
+  },
+  {
+    "callId": "TEST-CALL-846820",
+    "dispatchId": "TEST-6820",
+    "incidentId": "SYSTEM-TEST-LINE",
+    "hotspotId": "SYSTEM-TEST-LINE",
+    "responderId": "resp-fire-1",
+    "responderName": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "phoneNumber": "+917841070875",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789718846820-uw78t",
+    "status": "COMPLETED",
+    "queuedAt": "2026-09-18T08:07:26.820Z",
+    "duration": 14,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:07:26.820Z",
+        "note": "Operator triggered direct diagnostic line test to Fire & Rescue"
+      },
+      {
+        "status": "INITIATING",
+        "timestamp": "2026-09-18T08:07:27.821Z",
+        "note": "Call status transitioned to INITIATING"
+      },
+      {
+        "status": "RINGING",
+        "timestamp": "2026-09-18T08:07:29.022Z",
+        "note": "Call status transitioned to RINGING"
+      },
+      {
+        "status": "ANSWERED",
+        "timestamp": "2026-09-18T08:07:31.523Z",
+        "note": "Call status transitioned to ANSWERED"
+      },
+      {
+        "status": "COMPLETED",
+        "timestamp": "2026-09-18T08:07:45.526Z",
+        "note": "Call status transitioned to COMPLETED"
+      }
+    ],
+    "location": "Diagnostic Terminal",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "severity": "LOW",
+    "classification": "Line Test",
+    "createdAt": "2026-09-18T08:07:26.820Z",
+    "updatedAt": "2026-09-18T08:07:45.526Z",
+    "initiatedAt": "2026-09-18T08:07:27.821Z",
+    "ringingAt": "2026-09-18T08:07:29.022Z",
+    "answeredAt": "2026-09-18T08:07:31.523Z",
+    "completedAt": "2026-09-18T08:07:45.526Z"
+  },
+  {
+    "callId": "CALL-925135-1",
+    "dispatchId": "DSP-925135",
+    "incidentId": "evt-firms-ulsan-01",
+    "hotspotId": "evt-firms-ulsan-01",
+    "responderId": "resp-fire-1",
+    "responderName": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "phoneNumber": "+917841070875",
+    "mode": "LIVE",
+    "provider": "TwilioLiveTelephonyProvider",
+    "providerCallId": "pending",
+    "status": "FAILED",
+    "queuedAt": "2026-09-18T08:40:11.198Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:25:25.135Z",
+        "note": "Emergency call session #1 queued for Fire & Rescue (Industrial Fire Services & Hazmat Division)"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:25:25.494Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      },
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:40:11.198Z",
+        "note": "Call status transitioned to QUEUED"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:40:11.527Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      }
+    ],
+    "location": "SK Energy Ulsan Complex",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 98.6,
+    "severity": "RAPID",
+    "classification": "Industrial Fire",
+    "createdAt": "2026-09-18T08:25:25.135Z",
+    "updatedAt": "2026-09-18T08:40:11.527Z",
+    "errorMessage": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+  },
+  {
+    "callId": "CALL-925494-2",
+    "dispatchId": "DSP-925135",
+    "incidentId": "evt-firms-ulsan-01",
+    "hotspotId": "evt-firms-ulsan-01",
+    "responderId": "resp-police-2",
+    "responderName": "State Police & Civil Evacuation Force",
+    "role": "POLICE",
+    "phoneNumber": "+917709695196",
+    "mode": "LIVE",
+    "provider": "TwilioLiveTelephonyProvider",
+    "providerCallId": "pending",
+    "status": "FAILED",
+    "queuedAt": "2026-09-18T08:40:24.937Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:25:25.135Z",
+        "note": "Emergency call session #2 queued for Police (City & Industrial Area Police Command)"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:25:25.820Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      },
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:40:11.640Z",
+        "note": "Call status transitioned to QUEUED"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:40:11.944Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      },
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:40:24.937Z",
+        "note": "Call status transitioned to QUEUED"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:40:25.259Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      }
+    ],
+    "location": "SK Energy Ulsan Complex",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 98.6,
+    "severity": "RAPID",
+    "classification": "Industrial Fire",
+    "createdAt": "2026-09-18T08:25:25.135Z",
+    "updatedAt": "2026-09-18T08:40:25.259Z",
+    "errorMessage": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+  },
+  {
+    "callId": "CALL-925820-3",
+    "dispatchId": "DSP-925135",
+    "incidentId": "evt-firms-ulsan-01",
+    "hotspotId": "evt-firms-ulsan-01",
+    "responderId": "resp-hospital-3",
+    "responderName": "Regional Apex Trauma & Burn ICU Hospital",
+    "role": "HOSPITAL_MEDICAL",
+    "phoneNumber": "+918180940073",
+    "mode": "LIVE",
+    "provider": "TwilioLiveTelephonyProvider",
+    "providerCallId": "pending",
+    "status": "FAILED",
+    "queuedAt": "2026-09-18T08:40:12.054Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:25:25.135Z",
+        "note": "Emergency call session #3 queued for Hospital / Medical (Civil Medical Services & Trauma Center)"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:25:26.134Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      },
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:40:12.054Z",
+        "note": "Call status transitioned to QUEUED"
+      },
+      {
+        "status": "FAILED",
+        "timestamp": "2026-09-18T08:40:12.351Z",
+        "note": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+      }
+    ],
+    "location": "SK Energy Ulsan Complex",
+    "coordinates": {
+      "latitude": 35.5042,
+      "longitude": 129.3585
+    },
+    "frp": 98.6,
+    "severity": "RAPID",
+    "classification": "Industrial Fire",
+    "createdAt": "2026-09-18T08:25:25.135Z",
+    "updatedAt": "2026-09-18T08:40:12.351Z",
+    "errorMessage": "Twilio Call Initiation Failed: Invalid or disallowed parameters provided - trial accounts have limited parameter access, upgrade your account to unlock full functionality"
+  },
+  {
+    "callId": "CALL-015523-1",
+    "dispatchId": "DSP-015523",
+    "incidentId": "INC-DIAG-01",
+    "hotspotId": "HS-DIAG-01",
+    "responderId": "resp-fire-1",
+    "responderName": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "phoneNumber": "+917841070875",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789721015524-uhkxk",
+    "status": "QUEUED",
+    "queuedAt": "2026-09-18T08:43:35.523Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:43:35.523Z",
+        "note": "Emergency call session #1 queued for Fire & Rescue (Industrial Fire Services & Hazmat Division)"
+      }
+    ],
+    "location": "Industrial Estate Sector 4",
+    "coordinates": {
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T08:43:35.523Z",
+    "updatedAt": "2026-09-18T08:43:35.524Z",
+    "initiatedAt": "2026-09-18T08:43:35.524Z"
+  },
+  {
+    "callId": "CALL-015524-2",
+    "dispatchId": "DSP-015523",
+    "incidentId": "INC-DIAG-01",
+    "hotspotId": "HS-DIAG-01",
+    "responderId": "resp-police-2",
+    "responderName": "State Police & Civil Evacuation Force",
+    "role": "POLICE",
+    "phoneNumber": "+917709695196",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789721015524-5y68j",
+    "status": "QUEUED",
+    "queuedAt": "2026-09-18T08:43:35.523Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:43:35.523Z",
+        "note": "Emergency call session #2 queued for Police (City & Industrial Area Police Command)"
+      }
+    ],
+    "location": "Industrial Estate Sector 4",
+    "coordinates": {
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T08:43:35.523Z",
+    "updatedAt": "2026-09-18T08:43:35.524Z",
+    "initiatedAt": "2026-09-18T08:43:35.524Z"
+  },
+  {
+    "callId": "CALL-015524-3",
+    "dispatchId": "DSP-015523",
+    "incidentId": "INC-DIAG-01",
+    "hotspotId": "HS-DIAG-01",
+    "responderId": "resp-hospital-3",
+    "responderName": "Regional Apex Trauma & Burn ICU Hospital",
+    "role": "HOSPITAL_MEDICAL",
+    "phoneNumber": "+918180940073",
+    "mode": "TEST",
+    "provider": "MockTelephonyProvider",
+    "providerCallId": "mock-call-1789721015525-qf47x",
+    "status": "QUEUED",
+    "queuedAt": "2026-09-18T08:43:35.523Z",
+    "duration": 0,
+    "timeline": [
+      {
+        "status": "QUEUED",
+        "timestamp": "2026-09-18T08:43:35.523Z",
+        "note": "Emergency call session #3 queued for Hospital / Medical (Civil Medical Services & Trauma Center)"
+      }
+    ],
+    "location": "Industrial Estate Sector 4",
+    "coordinates": {
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    "frp": 45,
+    "severity": "CRITICAL",
+    "classification": "Thermal / Fire Candidate",
+    "createdAt": "2026-09-18T08:43:35.523Z",
+    "updatedAt": "2026-09-18T08:43:35.525Z",
+    "initiatedAt": "2026-09-18T08:43:35.525Z"
+  }
+]

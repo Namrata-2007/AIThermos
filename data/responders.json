@@ -1,0 +1,67 @@
+[
+  {
+    "id": "resp-fire-1",
+    "name": "District Industrial Fire & Rescue Command",
+    "role": "FIRE_RESCUE",
+    "roleLabel": "Fire & Rescue",
+    "organization": "Industrial Fire Services & Hazmat Division",
+    "phoneNumber": "+917841070875",
+    "location": "Central Industrial Fire Station, Station Rd",
+    "active": true,
+    "notes": "Heavy chemical foam tenders, 12,000L bowsers, Hazmat suit crew",
+    "createdAt": "2026-09-18T07:56:42.950Z",
+    "updatedAt": "2026-09-18T08:15:00.000Z"
+  },
+  {
+    "id": "resp-police-2",
+    "name": "State Police & Civil Evacuation Force",
+    "role": "POLICE",
+    "roleLabel": "Police",
+    "organization": "City & Industrial Area Police Command",
+    "phoneNumber": "+917709695196",
+    "location": "Metropolitan Police Sub-Division 4",
+    "active": true,
+    "notes": "Perimeter cordons, green traffic corridor clearance, megaphone warning",
+    "createdAt": "2026-09-18T07:56:42.950Z",
+    "updatedAt": "2026-09-18T08:15:00.000Z"
+  },
+  {
+    "id": "resp-hospital-3",
+    "name": "Regional Apex Trauma & Burn ICU Hospital",
+    "role": "HOSPITAL_MEDICAL",
+    "roleLabel": "Hospital / Medical",
+    "organization": "Civil Medical Services & Trauma Center",
+    "phoneNumber": "+918180940073",
+    "location": "District Civil Medical College & Hospital",
+    "active": true,
+    "notes": "Dedicated Burn ICU ward, cyanide toxicity antidotes, triage staff",
+    "createdAt": "2026-09-18T07:56:42.950Z",
+    "updatedAt": "2026-09-18T08:15:00.000Z"
+  },
+  {
+    "id": "resp-ambulance-4",
+    "name": "Emergency ALS Ambulance Corps",
+    "role": "AMBULANCE",
+    "roleLabel": "Ambulance",
+    "organization": "Advanced Life Support Ambulance Network",
+    "phoneNumber": "+917020633155",
+    "location": "Mobile EMS Unit Standby Station",
+    "active": true,
+    "notes": "Paramedic burn resuscitation, oxygenation, ventilator support",
+    "createdAt": "2026-09-18T07:56:42.950Z",
+    "updatedAt": "2026-09-18T08:15:00.000Z"
+  },
+  {
+    "id": "resp-disaster-5",
+    "name": "District Disaster Management Authority (DDMA)",
+    "role": "DISASTER_MANAGEMENT",
+    "roleLabel": "Disaster Management",
+    "organization": "Emergency Operations Center (EOC)",
+    "phoneNumber": "+918767720313",
+    "location": "Collectorate EOC Command Bunker",
+    "active": true,
+    "notes": "Multi-department coordination, civil defense shelters, siren activation",
+    "createdAt": "2026-09-18T07:56:42.950Z",
+    "updatedAt": "2026-09-18T08:15:00.000Z"
+  }
+]

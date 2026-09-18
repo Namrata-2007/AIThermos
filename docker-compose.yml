@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  # =======================================================
+  # 1. PostgreSQL + PostGIS Relational Spatial Database
+  # =======================================================
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: aifireone-postgis
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-aifireone}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d aifireone"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # =======================================================
+  # 2. FastAPI Backend Engine (Python 3.10+)
+  # =======================================================
+  backend:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM python:3.10-slim
+        WORKDIR /app
+        RUN apt-get update && apt-get install -y --no-install-recommends \
+            build-essential libpq-dev gdal-bin libgdal-dev ffmpeg libsm6 libxext6 \
+            && rm -rf /var/lib/apt/lists/*
+        COPY backend/requirements.txt .
+        RUN pip install --no-cache-dir -r requirements.txt
+        COPY backend/ ./backend/
+        ENV PYTHONUNBUFFERED=1
+        CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    container_name: aifireone-backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/aifireone
+      NASA_FIRMS_API_KEY: ${NASA_FIRMS_API_KEY:-}
+      GLOBAL_WEBCAM_API_KEY: ${GLOBAL_WEBCAM_API_KEY:-}
+      TWILIO_ACCOUNT_SID: ${TWILIO_ACCOUNT_SID:-}
+      TWILIO_AUTH_TOKEN: ${TWILIO_AUTH_TOKEN:-}
+      TWILIO_PHONE_NUMBER: ${TWILIO_PHONE_NUMBER:-}
+      OVERPASS_URL: ${OVERPASS_URL:-https://overpass-api.de/api/interpreter}
+      DEMO_MODE: ${DEMO_MODE:-true}
+      SIMULATED_DISPATCH_REGISTRY: ${SIMULATED_DISPATCH_REGISTRY:-true}
+    ports:
+      - "8000:8000"
+
+  # =======================================================
+  # 3. Interactive React + Leaflet Dashboard
+  # =======================================================
+  frontend:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM node:20-alpine
+        WORKDIR /app
+        COPY package*.json ./
+        RUN npm ci
+        COPY . .
+        ENV PORT=3000
+        CMD ["npm", "run", "dev"]
+    container_name: aifireone-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_BACKEND_API_URL=http://localhost:8000
+
+volumes:
+  pgdata:

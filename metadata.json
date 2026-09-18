@@ -1,0 +1,6 @@
+{
+  "name": "THERMOS — Satellite Industrial Thermal Intelligence",
+    "description": "AI Fire One / THERMOS: Evidence-driven geospatial early-warning & emergency-response platform (SIH 2026 Problem Statement 162 sponsored by NTRO) integrating NASA FIRMS, OpenCV optical stream processing, deterministic safety verification, 60-min fire spread modeling, and multi-agency responder dispatch.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
