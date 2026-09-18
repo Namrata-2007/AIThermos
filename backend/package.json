@@ -7,7 +7,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx src/server.ts",
-    "build": "esbuild src/server.js --bundle --platform=node --format=esm --packages=external --sourcemap --outfile=dist/server.js",
+    "build": "esbuild src/server.ts --bundle --platform=node --format=esm --packages=external --sourcemap --outfile=dist/server.js",
     "start": "node dist/server.js",
     "lint": "tsc --noEmit"
   },
